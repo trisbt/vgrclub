@@ -1,5 +1,5 @@
 import React from 'react'
-import { peach, commissioner } from '../fonts'
+import { commissioner } from '../fonts'
 
 
 const Schedule = () => {
@@ -9,7 +9,7 @@ const Schedule = () => {
       {/* <div className="hero-overlay bg-opacity-90"></div> */}
 
       <div className=''>
-        <h1 className={`tracking-wide text-neutral text-4xl md:text-6xl lg:text-7xl ${peach.className} font-bold `}>Schedule</h1>
+        <h1 className={`tracking-wide text-neutral text-4xl md:text-6xl lg:text-7xl font-bold `}>Schedule</h1>
         {/* <hr class="border-t-2 border-black" /> */}
       </div>
 

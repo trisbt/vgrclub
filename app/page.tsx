@@ -6,7 +6,7 @@ import { EmblaOptionsType } from 'embla-carousel'
 import Schedule from './components/Schedule';
 import Partners from './components/Partners';
 import { motion } from 'framer-motion';
-import { commissioner, peach } from './fonts'
+import { commissioner } from './fonts'
 import images from './images';
 
 //TODO: this will be homepage, 

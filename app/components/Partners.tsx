@@ -1,5 +1,4 @@
 import React from 'react'
-import { peach } from '../fonts'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
@@ -57,7 +56,7 @@ const Partners = () => {
   return (
     <main className="flex min-w-full flex-col items-center justify-start bg-accent" data-theme="mytheme">
       <div className='flex flex-col text-center justify-center w-full h-auto  pb-8'>
-        <h1 className={`tracking-wider text-5xl md:text-6xl lg:text-7xl font-bold pt-8 ${peach.className}`}>Our Supporters</h1>
+        <h1 className={`tracking-wider text-5xl md:text-6xl lg:text-7xl font-bold pt-8 >Our Supporters</h1>
         <p className={`text-1xl md:text-2xl lg:text-3xl pt-3 `}>Special thanks to our sponsors and partners</p>
       </div>
       <div className=" px-4 py-4 min-w-full xl:px-16 bg-accent">

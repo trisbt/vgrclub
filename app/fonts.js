@@ -9,11 +9,11 @@ export const commissioner = Commissioner({
   display: 'swap',
 })
 
-export const peach = localFont({
-  src: '../public/assets/Mastery Kingdom.otf',
-  variable: '--font-peachh',
-  display: 'swap',
-})
+// export const peach = localFont({
+//   src: '../public/assets/Mastery Kingdom.otf',
+//   variable: '--font-peachh',
+//   display: 'swap',
+// })
 
 export const noto = Noto_Sans({ 
   subsets: ['latin'], 

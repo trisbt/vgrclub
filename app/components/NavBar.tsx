@@ -5,7 +5,7 @@ import { motion, sync, useCycle } from "framer-motion";
 import { useDimensions } from "../use-dimensions";
 import { MenuToggle } from "./MenuToggle";
 import { Navigation } from "./Navigation";
-import { noto, peach, commissioner } from '../fonts';
+import { noto, commissioner } from '../fonts';
 import Link from 'next/link'
 import InstagramLogo from './InstagramLogo'
 import TikTokLogo from './TikTokLogo'
@@ -43,7 +43,8 @@ const NavBar = () => {
         {/* logo */}
         <div className='flex lg:flex-1'>
           <Link href="/" className=''>
-            <span></span>
+          {/* placeholder */}
+            <span>VGR</span>
             <img src="/assets/VGR-original.jpg" alt="" className='h-auto w-28' />
           </Link>
         </div>
